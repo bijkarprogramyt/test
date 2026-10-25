@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(234, 241, 163);
+}
+
+h1 {
+  text-align: center;
+}
+
+.bich nav {
+  height: 15vh;
+  border: 2px solid white;
+}
+.bich nav ul {
+  height: 15vh;
+  background-color: rgb(4, 144, 97);
+}
+.bich nav ul #html-lan a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=ui.css.map */

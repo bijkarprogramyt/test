@@ -1,0 +1,34 @@
+$bodyBG-col: rgb(234, 241, 163);
+$none-value: none;
+$boldTxt: bold;
+$whiteCol: white;
+$whiteBorderFll: 1px solid white;
+$whiteBorderFll2px: 2px solid white;
+$relPos: relative;
+body {
+    background-color: $bodyBG-col;
+}
+h1 {
+    text-align: center;
+}
+.bich {
+    nav {
+        height: 15vh;
+        border: $whiteBorderFll2px;
+        ul {
+            height: 15vh;
+            background-color: rgb(4, 144, 97);
+            #html-lan {
+                a {
+                    text-decoration: $none-value;
+                    font-weight: $boldTxt;
+                    color: $whiteCol;
+                    position: $relPos;
+                    left: 10px;
+                    top: 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
